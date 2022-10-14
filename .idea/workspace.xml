@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9f63357-0c3e-4a38-ab71-b5d5267ecab3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/MarketPlaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/controller/BagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/controller/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/BillingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/PurchaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/addItemToBag/AddRetailItemToBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/addItemToBag/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/addItemToBag/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/addItemToBag/JsonAddItemToBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/addItemToBag/RetailItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/AvailableShippingDestinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/BagById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/JsonBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/OriginAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Renditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/RetailItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bag/Variant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bagBillingAddress/BillingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bagBillingAddress/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bagBillingAddress/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bagBillingAddress/JsonBillingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/bagBillingAddress/SetBagBillingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/defaultBag/Bags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/defaultBag/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/defaultBag/DefaultBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/defaultBag/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/defaultBag/JsonDefaultBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/BagById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/BillingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/JsonUserShippingAndBillingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Renditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/RetailItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/getUserShippingAndBillingInfo/Variant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/AvailableItemsShippingRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/AvailableShippingRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/BagById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/BillingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Creators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/JsonItemsForReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/OriginAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Renditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/RetailItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/RetailItemPricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/SelectedRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/ShippingRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/itemsForReview/Variant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Credit_card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/JsonPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Purchase_date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Retail_item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Shipping_address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Shipping_rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/purchase/Tax_date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/removeItemFromBag/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/removeItemFromBag/JsonRemoveItemFromBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/removeItemFromBag/RemoveRetailItemFromBagByBagId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/removeItemFromBag/ShippingChecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/setShippingRate/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/setShippingRate/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/setShippingRate/JsonSetShippingRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/setShippingRate/SelectedShippingRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/setShippingRate/SetBagItemsShippingRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingAddress/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingAddress/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingAddress/JsonShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingAddress/SetBagShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingAddress/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingAddress/ShippingChecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/AvailableItemsShippingRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/AvailableShippingRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/BagById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/JsonShippingRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/OriginAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Renditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/RetailItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/SelectedRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/ShippingRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/shippingrate/Variant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/AvailableShippingDestinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/BagById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/CountryISO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Creators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/JsonUserShippingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/OriginAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Renditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/RetailItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/ShippingChecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sothebys/marketplace/entity/userShippingInfo/Variant.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2G7Fg8nPlBz69dvh2CzeCGj68hf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/yimingxie/Documents/GitHub/helloword"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MarketPlaceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sothebys.marketplace.MarketPlaceApplication" />
+      <module name="helloword" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sothebys.marketplace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MarketPlaceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9f63357-0c3e-4a38-ab71-b5d5267ecab3" name="Changes" comment="" />
+      <created>1665731823643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665731823643</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
